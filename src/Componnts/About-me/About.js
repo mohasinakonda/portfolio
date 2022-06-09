@@ -4,22 +4,45 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="lg:p-24 grid lg:grid-cols-2">
-      <div>
+    <div className="lg:p-24 grid lg:grid-cols-2 gap-20 ">
+      <div className="bg-base-100 shadow-xl p-8 rounded">
         <h3 className="text-2xl text-cyan-500">About me</h3>
-        <h2 className="text-4xl">Better learner better experience</h2>
+        <h2 className="text-4xl py-5">Better learn better performance</h2>
         <p className="text-xl ">
-          Learner is a full passionate and duty is full responsible. Discover
-          new skill is my passion
+          I am MERN stack developer, recently I completed some MERN stack
+          projects{" "}
+          <a
+            rel="noreferrer"
+            className="text-cyan-500 underline"
+            href="https://electric-gear.netlify.app/"
+            target="_blank"
+          >
+            Electric gear
+          </a>{" "}
+          and
+          <a
+            rel="noreferrer"
+            className="text-cyan-500 underline"
+            href="https://laptop-mart.netlify.app/"
+            target="_blank"
+          >
+            {" "}
+            laptop mart
+          </a>{" "}
+          is shown here Learner is a full passionate ,dedicated,hard working and
+          duty is full responsible. Discover new skill is my passion,
         </p>
-        <FontAwesomeIcon icon={faCoffee} />
       </div>
 
-      <div>
+      <div className="bg-base-100 shadow-xl p-8 rounded">
         <h2 className="text-3xl">Connected with</h2>
-
+        <p className="py-5">
+          {" "}
+          Here I provide my professional social links, I always active here,
+          please knock me .
+        </p>
         <ul className="flex gap-2">
-          <li className="w-7 rounded-full text-cyan-500">
+          <li className="w-8 rounded hover:bg-cyan-100">
             <a
               href="https://www.linkedin.com/in/hazrat-ali-akonda/"
               target="_blank"
@@ -30,7 +53,7 @@ const About = () => {
               </svg>
             </a>
           </li>
-          <li className="w-7">
+          <li className="w-8 rounded hover:bg-cyan-100">
             <a
               href="https://github.com/mohasinakonda"
               target="_blank"
@@ -41,7 +64,17 @@ const About = () => {
               </svg>
             </a>
           </li>
-          <li></li>
+          <li className="w-8 rounded hover:bg-cyan-100">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.facebook.com/mohasinakonda"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+              </svg>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
