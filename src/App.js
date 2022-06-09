@@ -4,6 +4,7 @@ import About from "./Componnts/About-me/About";
 import Hero from "./Componnts/Hero/Hero";
 import Navbar from "./Componnts/Navbar/Navbar";
 import Projects from "./Componnts/Projects/Projects";
+import Skills from "./Componnts/Skills/Skills";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <About></About>
         <div className="h-[3px] bg-cyan-100 shadow-xl"></div>
       </div>
+      <Skills />
 
       <Routes>
         <Route path="about-me" element={<About></About>}></Route>
