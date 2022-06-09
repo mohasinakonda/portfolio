@@ -10,34 +10,71 @@ const Skills = () => {
       </h3>
       <h2 className="text-4xl  text-center py-5"> My skills</h2>
 
-      <div className="grid lg:grid-cols-4 gap-5">
-        <div class="card  bg-base-100 shadow-xl">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5 ">
+        <div class="card  bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 ">
           <figure class="px-10 pt-10">
             <Javascript></Javascript>
           </figure>
           <div class="card-body items-center ">
-            <p className="text-lg">
-              {" "}
-              Javascript is my first prefer programming language also first
-              language,I do functional Javascript, OOP in Javascript,DOM, some
-              data structure like call stack and queue, arrays are more
-              comfortable
-            </p>
+            <div className="card-title">Javascript</div>
+            <ul className="text-lg">
+              <li className="list-disc">Functional Javascript</li>
+              <li className="list-disc">DOM manipulation</li>
+              <li className="list-disc">Asynchronous Javascript</li>
+              <li className="list-disc">Callback and queue</li>
+              <li className="list-disc">Debugging</li>
+            </ul>
           </div>
         </div>
 
-        <div class="card bg-base-100 shadow-xl">
+        <div class="card  bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 ">
           <figure class="px-10 pt-10">
             <img src={react} alt="" />
           </figure>
           <div class="card-body items-center ">
-            <p className="text-lg">
-              {" "}
-              React is another comfort ui library, I know
-              react-router,react-firebase-hooks , alert for
-              react-toastify,react-hooks-form. I create couple of projects which
-              uses react library.
-            </p>
+            <div className="card-title">React</div>
+
+            <ul className="text-lg">
+              <li className="list-disc">React-functional Components</li>
+              <li className="list-disc">React-router</li>
+              <li className="list-disc">React-firebase-hooks</li>
+              <li className="list-disc">React-toastify</li>
+              <li className="list-disc">React-</li>
+            </ul>
+          </div>
+        </div>
+        {/*  */}
+        <div class="card  bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 ">
+          <figure class="px-10 pt-10">
+            <img src={react} alt="" />
+          </figure>
+          <div class="card-body items-center ">
+            <div className="card-title">React</div>
+
+            <ul className="text-lg">
+              <li className="list-disc">React-functional Components</li>
+              <li className="list-disc">React-router</li>
+              <li className="list-disc">React-firebase-hooks</li>
+              <li className="list-disc">React-toastify</li>
+              <li className="list-disc">React-</li>
+            </ul>
+          </div>
+        </div>
+        {/* two */}
+        <div class="card  bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 ">
+          <figure class="px-10 pt-10">
+            <img src={react} alt="" />
+          </figure>
+          <div class="card-body items-center ">
+            <div className="card-title">React</div>
+
+            <ul className="text-lg">
+              <li className="list-disc">React-functional Components</li>
+              <li className="list-disc">React-router</li>
+              <li className="list-disc">React-firebase-hooks</li>
+              <li className="list-disc">React-toastify</li>
+              <li className="list-disc">React-</li>
+            </ul>
           </div>
         </div>
       </div>
