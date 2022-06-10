@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
+import { ContactUs } from "../ContactForm";
 
 const Projects = () => {
   return (
@@ -7,6 +8,7 @@ const Projects = () => {
       <div>
         <Outlet></Outlet>
       </div>
+      <ContactUs />
     </div>
   );
 };

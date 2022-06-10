@@ -2,6 +2,8 @@ import { faHome, faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import electricHome from "../../assests/electric-gear-home.png";
+import laptop1 from "../../assests/laptop-1.png";
+
 import HomePage from "../../assests/homepase-2.png";
 
 const Mern = () => {
@@ -77,14 +79,21 @@ const Mern = () => {
         {/*  */}
         <div class=" bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 p-5">
           <div class="hero-content flex-col lg:flex-row-reverse">
-            <img
-              src={electricHome}
-              alt="electric gear"
-              class="max-w-sm max-w-lg rounded-lg shadow-2xl"
-            />
+            <div className="grid gap-3">
+              <img
+                src={laptop1}
+                alt="electric gear"
+                class="max-w-sm  rounded-lg shadow-2xl"
+              />
+              <img
+                src={HomePage}
+                alt="electric gear"
+                class="max-w-sm  rounded-lg shadow-2xl"
+              />
+            </div>
             <div>
               <h1 class="text-4xl font-bold">
-                Phone Mart{" "}
+                Laptop Mart{" "}
                 <a
                   className="text-lg text-cyan-400"
                   rel="noreferrer"
@@ -102,7 +111,7 @@ const Mern = () => {
                   server : Node ,Mongodb ,Express , Heroku
                 </li>
                 <li className="list-disc">
-                  Authentication: Firebase, React-firebse-hooks ,JWT
+                  Authentication: Firebase, React-firebase-hooks ,JWT
                 </li>
               </ul>
               <p className="text-lg">

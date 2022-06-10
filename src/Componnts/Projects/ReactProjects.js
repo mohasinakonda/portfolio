@@ -1,5 +1,6 @@
 import React from "react";
-import electricHome from "../../assests/electric-gear-home.png";
+import hotelBooking from "../../assests/hotelBooking.png";
+import hotelBooking2 from "../../assests/hotelbokking2.png";
 
 const ReactProjects = () => {
   return (
@@ -11,24 +12,24 @@ const ReactProjects = () => {
           <div class="hero-content flex-col lg:flex-row-reverse ">
             <div className="grid gap-3">
               <img
-                src={electricHome}
+                src={hotelBooking}
                 alt="electric gear"
                 class="max-w-sm  rounded-lg shadow-2xl"
               />
               <img
-                src={electricHome}
+                src={hotelBooking2}
                 alt="electric gear"
                 class="max-w-sm  rounded-lg shadow-2xl"
               />
             </div>
             <div>
               <h1 class="text-4xl font-bold">
-                Electric Gear{" "}
+                Hotel booking{" "}
                 <a
                   className="text-lg text-cyan-400"
                   rel="noreferrer"
                   target="_blank"
-                  href="https://electric-gear.netlify.app/"
+                  href="https://hotelroombooking.netlify.app/"
                 >
                   {" "}
                   [live preview]
@@ -36,36 +37,27 @@ const ReactProjects = () => {
               </h1>
               <h3 className="text-3xl py-3">key features</h3>
               <ul>
-                <li className="list-disc">Products details</li>
-                <li className="list-disc">Stripe payment method</li>
-                <li className="list-disc">Dashboard</li>
-                <li className="list-disc">user profile</li>
-                <li className="list-disc">Admin profile</li>
+                <li className="list-disc">Room details</li>
+                <li className="list-disc">Checkout </li>
+                <li className="list-disc">Login and resister</li>
+                <li className="list-disc">user Authentication</li>
               </ul>
               <p>
-                <span className="font-bold"> Summery of electric-gear:</span>{" "}
-                Electric gear is whole sell electric tools, here you don’t buy a
-                product without login, both user and admin have dashboard. User
-                manage his order, see payment history. Admin manage all products
-                ,order and make admin to specific users.
+                <span className="font-bold"> Summery of Hotel booking:</span>{" "}
+                Hotel booking is one kind of room service type web app.Here you
+                select room and confirm room booking. You don't show room
+                details without login
               </p>
               <p className="font-bold">
                 Code :
                 <a
                   className="text-cyan-400"
-                  href="https://github.com/mohasinakonda/electric-gear-client"
+                  href="https://github.com/mohasinakonda/hotel-boking"
                 >
                   {" "}
                   Client side
                 </a>{" "}
                 |
-                <a
-                  className="text-cyan-400"
-                  href="https://github.com/mohasinakonda/electrice-gear-server"
-                >
-                  {" "}
-                  Server side
-                </a>{" "}
               </p>
             </div>
           </div>
@@ -75,13 +67,13 @@ const ReactProjects = () => {
         <div class=" bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 p-5">
           <div class="hero-content flex-col lg:flex-row-reverse">
             <img
-              src={electricHome}
+              src={hotelBooking}
               alt="electric gear"
               class="max-w-sm max-w-lg rounded-lg shadow-2xl"
             />
             <div>
               <h1 class="text-4xl font-bold">
-                Electric Gear{" "}
+                Phone mart{" "}
                 <a
                   className="text-lg text-cyan-400"
                   rel="noreferrer"
@@ -111,18 +103,10 @@ const ReactProjects = () => {
                 Code :
                 <a
                   className="text-cyan-400"
-                  href="https://github.com/mohasinakonda/electric-gear-client"
+                  href="https://github.com/mohasinakonda/phone-mart"
                 >
                   {" "}
                   Client side
-                </a>{" "}
-                |
-                <a
-                  className="text-cyan-400"
-                  href="https://github.com/mohasinakonda/electrice-gear-server"
-                >
-                  {" "}
-                  Server side
                 </a>{" "}
               </p>
             </div>
