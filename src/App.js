@@ -6,6 +6,7 @@ import Navbar from "./Componnts/Navbar/Navbar";
 import JavascriptProjects from "./Componnts/Projects/JavascriptProjects";
 import Mern from "./Componnts/Projects/Mern";
 import Projects from "./Componnts/Projects/Projects";
+import ProjectsNav from "./Componnts/Projects/ProjectsNav";
 import ReactProjects from "./Componnts/Projects/ReactProjects";
 import Skills from "./Componnts/Skills/Skills";
 
@@ -21,11 +22,12 @@ function App() {
         <div className="h-[3px] bg-cyan-100 shadow-xl"></div>
       </div>
       <Skills />
-      <Projects></Projects>
+
+      <ProjectsNav />
 
       <Routes>
         <Route path="about-me" element={<About></About>}></Route>
-        {/* <Route path="projects" element={<Projects />}></Route> */}
+
         <Route path="/projects" element={<Projects />}>
           <Route index element={<Mern />}></Route>
           <Route path="mern-project" element={<Mern />}></Route>
