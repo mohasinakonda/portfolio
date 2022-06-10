@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="min-h-screen">
       <div>
         <Outlet></Outlet>
       </div>
