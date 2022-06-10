@@ -7,18 +7,20 @@ const Projects = () => {
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
           <li>
-            <Link to="/mern-project">MERN</Link>
+            <Link to="/projects">MERN</Link>
           </li>
 
           <li>
-            <Link to="react-project">React project</Link>
+            <Link to="/projects/react-project">React project</Link>
           </li>
           <li>
-            <Link to="javascript">Javascript project</Link>
+            <Link to="/projects/javascript-project">Javascript project</Link>
           </li>
         </ul>
       </div>
-      <Outlet></Outlet>
+      <div>
+        <Outlet></Outlet>
+      </div>
     </div>
   );
 };

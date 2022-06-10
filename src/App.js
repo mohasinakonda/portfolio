@@ -3,7 +3,10 @@ import "./App.css";
 import About from "./Componnts/About-me/About";
 import Hero from "./Componnts/Hero/Hero";
 import Navbar from "./Componnts/Navbar/Navbar";
+import JavascriptProjects from "./Componnts/Projects/JavascriptProjects";
+import Mern from "./Componnts/Projects/Mern";
 import Projects from "./Componnts/Projects/Projects";
+import ReactProjects from "./Componnts/Projects/ReactProjects";
 import Skills from "./Componnts/Skills/Skills";
 
 function App() {
@@ -18,10 +21,20 @@ function App() {
         <div className="h-[3px] bg-cyan-100 shadow-xl"></div>
       </div>
       <Skills />
+      <Projects></Projects>
 
       <Routes>
         <Route path="about-me" element={<About></About>}></Route>
-        <Route path="projects" element={<Projects />}></Route>
+        {/* <Route path="projects" element={<Projects />}></Route> */}
+        <Route path="/projects" element={<Projects />}>
+          <Route index element={<Mern />}></Route>
+          <Route path="mern-project" element={<Mern />}></Route>
+          <Route path="react-project" element={<ReactProjects />}></Route>
+          <Route
+            path="javascript-project"
+            element={<JavascriptProjects />}
+          ></Route>
+        </Route>
       </Routes>
     </div>
   );
