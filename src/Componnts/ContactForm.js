@@ -16,7 +16,8 @@ export const ContactUs = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          e.target.reset();
+          alert("your massage is send");
         },
         (error) => {
           console.log(error.text);
@@ -25,17 +26,18 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="py-12">
-      <h2 className="text-4xl text-center">Get in touch</h2>
+    <div className="py-12 bg-info ">
+      <h2 className="text-2xl  text-center"> Have any question or hire me?</h2>
+      <h2 className="text-4xl text-center py-5">Please find me here</h2>
       <form
-        className="grid grid-cols-1 w-1/2 mx-auto"
+        className="grid grid-cols-1 w-1/2 mx-auto bg-base-100 shadow-xl p-12"
         ref={form}
         onSubmit={sendEmail}
       >
         <label className="py-3">Name</label>
         <input
           required
-          class="input input-bordered input-primary w-full "
+          class="input input-bordered  input-['red'] w-full "
           type="text"
           name="user_name"
           placeholder="Name"

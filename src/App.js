@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import About from "./Componnts/About-me/About";
+import Blog from "./Componnts/Blogs/Blog";
 import Hero from "./Componnts/Hero/Hero";
 import Navbar from "./Componnts/Navbar/Navbar";
 import JavascriptProjects from "./Componnts/Projects/JavascriptProjects";
@@ -27,7 +28,9 @@ function App() {
 
       <Routes>
         <Route path="about-me" element={<About></About>}></Route>
+        <Route path="blogs" element={<Blog />}></Route>
 
+        <Route path="/" element={<Mern></Mern>}></Route>
         <Route path="/projects" element={<Projects />}>
           <Route index element={<Mern />}></Route>
           <Route path="mern-project" element={<Mern />}></Route>
