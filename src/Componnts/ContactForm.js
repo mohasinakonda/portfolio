@@ -26,7 +26,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <section id="contact-us" className="py-5 bg-info ">
+    <section id="contact-me" className="py-5 bg-info ">
       <h2 className="text-2xl  text-center"> Have any question or hire me?</h2>
       <h2 className="text-4xl text-center py-5">Please find me here</h2>
       <form

@@ -12,15 +12,19 @@ const Navbar = () => {
       </li>
 
       <li>
-        <a href="#about-me">About me</a>
+        <Link smooth={true} spy={true} to="about-me">
+          About me
+        </Link>
       </li>
       <li>
-        <a sm href="#contact-us">
-          Contact info
-        </a>
+        <Link smooth={true} spy={true} to="contact-me">
+          contact me
+        </Link>
       </li>
       <li>
-        <Link to="/blogs">Blogs</Link>
+        <Link smooth={true} spy={true} to="skills">
+          skills
+        </Link>
       </li>
     </>
   );
