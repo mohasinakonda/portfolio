@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link to="contact-info">Contact info</Link>
       </li>
       <li>
-        <Link to="blogs">Blogs</Link>
+        <Link to="/blogs">Blogs</Link>
       </li>
     </>
   );
@@ -43,13 +43,7 @@ const Navbar = () => {
             tabindex="0"
             class="menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52"
           >
-            <li>
-              <a>Item 1</a>
-            </li>
-
-            <li>
-              <a>Item 3</a>
-            </li>
+            {navItem}
           </ul>
         </div>
       </div>

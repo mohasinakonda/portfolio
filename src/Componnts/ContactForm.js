@@ -26,11 +26,11 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="py-12 bg-info ">
+    <div className="py-5 bg-info ">
       <h2 className="text-2xl  text-center"> Have any question or hire me?</h2>
       <h2 className="text-4xl text-center py-5">Please find me here</h2>
       <form
-        className="grid grid-cols-1 w-1/2 mx-auto bg-base-100 shadow-xl p-12"
+        className="grid grid-cols-1 lg:w-1/2 mx-auto bg-base-100 shadow-xl lg:p-12 p-5"
         ref={form}
         onSubmit={sendEmail}
       >

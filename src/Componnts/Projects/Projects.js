@@ -8,7 +8,7 @@ const Projects = () => {
       <div>
         <Outlet></Outlet>
       </div>
-      <ContactUs />
+      {/* <ContactUs /> */}
     </div>
   );
 };
