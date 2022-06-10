@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ProjectsNav = () => {
   return (
-    <div>
+    <section id="projects">
       <h2 className="text-4xl text-center py-10">My Recent work</h2>
 
       <div class="navbar-center  lg:flex justify-center">
@@ -20,7 +20,7 @@ const ProjectsNav = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 

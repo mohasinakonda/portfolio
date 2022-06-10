@@ -1,18 +1,23 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+// import { Link, useNavigate } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const navItem = (
     <>
       <li>
-        <Link to="projects">Projects</Link>
+        <Link smooth={true} spy={true} to="projects">
+          Projects
+        </Link>
       </li>
 
       <li>
-        <Link to="about-me">About me</Link>
+        <a href="#about-me">About me</a>
       </li>
       <li>
-        <Link to="contact-info">Contact info</Link>
+        <a sm href="#contact-us">
+          Contact info
+        </a>
       </li>
       <li>
         <Link to="/blogs">Blogs</Link>

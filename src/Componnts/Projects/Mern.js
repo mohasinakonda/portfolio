@@ -1,5 +1,3 @@
-import { faHome, faLink } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import electricHome from "../../assests/electric-gear-home.png";
 import laptop1 from "../../assests/laptop-1.png";

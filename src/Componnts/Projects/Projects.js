@@ -1,15 +1,13 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
-import { ContactUs } from "../ContactForm";
+import { Outlet } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="min-h-screen">
+    <section className="min-h-[60vh]">
       <div>
         <Outlet></Outlet>
       </div>
-      {/* <ContactUs /> */}
-    </div>
+    </section>
   );
 };
 

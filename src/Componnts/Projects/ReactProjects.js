@@ -69,7 +69,7 @@ const ReactProjects = () => {
             <img
               src={hotelBooking}
               alt="electric gear"
-              class="max-w-sm max-w-lg rounded-lg shadow-2xl"
+              class="max-w-sm  rounded-lg shadow-2xl"
             />
             <div>
               <h1 class="text-4xl font-bold">

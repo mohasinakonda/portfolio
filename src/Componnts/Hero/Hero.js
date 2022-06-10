@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import hero from "../../assests/hero.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Hero = () => {
   return (
@@ -29,9 +27,6 @@ const Hero = () => {
           >
             Get resume
           </a>
-          <Link className="btn mx-2" to="/about-me">
-            About me
-          </Link>
         </div>
       </div>
     </div>

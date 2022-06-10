@@ -4,7 +4,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="lg:p-24 grid lg:grid-cols-2 gap-20 ">
+    <section id="about-me" className="lg:p-24 grid lg:grid-cols-2 gap-20 ">
       <div className="bg-base-100 shadow-xl p-8 rounded">
         <h3 className="text-2xl text-cyan-500">About me</h3>
         <h2 className="text-4xl py-5">Better learn better performance</h2>
@@ -77,7 +77,7 @@ const About = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 
