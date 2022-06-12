@@ -14,7 +14,7 @@ const Skills = () => {
       <h2 className="text-4xl  text-center py-5"> My skills</h2>
 
       <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5 ">
-        <div class="card  bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 ">
+        <div class="card  bg-base-100 shadow-xl hover:bg-cyan-100 hover:scale-105  transition duration-300 ">
           <figure class="px-10 pt-10">
             <Javascript></Javascript>
           </figure>
@@ -30,7 +30,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div class="card  bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 ">
+        <div class="card  bg-base-100 shadow-xl hover:bg-cyan-100 hover:scale-105  transition duration-300 ">
           <figure class="px-10 pt-10">
             <img src={react} alt="" />
           </figure>
@@ -47,7 +47,7 @@ const Skills = () => {
           </div>
         </div>
         {/*  */}
-        <div class="card  bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 ">
+        <div class="card  bg-base-100 shadow-xl hover:bg-cyan-100  hover:scale-105  transition duration-300 ">
           <figure class=" px-10 pt-10">
             <img className="mt-12 py-12" src={node} alt="" />
           </figure>
@@ -64,7 +64,7 @@ const Skills = () => {
           </div>
         </div>
         {/* two */}
-        <div class="  bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 ">
+        <div class="  bg-base-100 shadow-xl hover:bg-cyan-100 hover:scale-105   transition duration-300 ">
           <figure class="px-10 pt-10 w-5/4">
             <img className="mt-12 py-12" src={mern} alt="" />
           </figure>

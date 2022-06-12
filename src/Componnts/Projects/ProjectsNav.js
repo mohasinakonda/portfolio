@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const ProjectsNav = () => {
   return (
@@ -9,14 +9,25 @@ const ProjectsNav = () => {
       <div class="navbar-center  lg:flex justify-center">
         <ul class="menu menu-horizontal p-0">
           <li>
-            <Link to="/projects">MERN</Link>
+            <NavLink
+              style={({ isActive }) =>
+                isActive
+                  ? { borderBottom: "2px solid cyan" }
+                  : { border: "none" }
+              }
+              to="/projects"
+            >
+              MERN
+            </NavLink>
           </li>
 
           <li>
-            <Link to="/projects/react-project">React project</Link>
+            <NavLink to="/projects/react-project">React project</NavLink>
           </li>
           <li>
-            <Link to="/projects/javascript-project">Javascript project</Link>
+            <NavLink to="/projects/javascript-project">
+              Javascript project
+            </NavLink>
           </li>
         </ul>
       </div>
