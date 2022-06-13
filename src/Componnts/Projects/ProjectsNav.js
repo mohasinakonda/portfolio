@@ -10,11 +10,7 @@ const ProjectsNav = () => {
         <ul class="menu menu-horizontal p-0">
           <li>
             <NavLink
-              style={({ isActive }) =>
-                isActive
-                  ? { borderBottom: "2px solid cyan" }
-                  : { border: "none" }
-              }
+              className="btn bg-base-100 hover:text-white"
               to="/projects"
             >
               MERN
@@ -22,10 +18,28 @@ const ProjectsNav = () => {
           </li>
 
           <li>
-            <NavLink to="/projects/react-project">React project</NavLink>
+            <NavLink
+              className="btn bg-base-100 hover:text-white"
+              style={({ isActive }) =>
+                isActive
+                  ? { borderBottom: "2px solid cyan" }
+                  : { border: "none" }
+              }
+              to="/projects/react-project"
+            >
+              React project
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/projects/javascript-project">
+            <NavLink
+              className="btn bg-base-100 hover:text-white"
+              style={({ isActive }) =>
+                isActive
+                  ? { borderBottom: "2px solid cyan" }
+                  : { border: "none" }
+              }
+              to="/projects/javascript-project"
+            >
               Javascript project
             </NavLink>
           </li>

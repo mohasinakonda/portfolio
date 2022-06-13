@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="footer p-10 bg-neutral text-neutral-content">
+    <footer class="footer p-10 bg-neutral text-neutral-content px-24">
       <div>
         <h2 className="text-4xl"> Let's Know me</h2>
         <p>

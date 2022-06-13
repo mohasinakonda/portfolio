@@ -1,7 +1,6 @@
 import React from "react";
 import Javascript from "../../SkillsIcons/Javascript";
 import react from "../../assests/logo512.png";
-import express from "../../assests/express.png";
 import node from "../../assests/node.png";
 import mern from "../../assests/mern-remove.png";
 
@@ -55,11 +54,9 @@ const Skills = () => {
             <div className="card-title text-3xl">Node</div>
 
             <ul className="text-lg">
-              <li className="list-disc">React-functional Components</li>
-              <li className="list-disc">React-router</li>
-              <li className="list-disc">React-firebase-hooks</li>
-              <li className="list-disc">React-toastify</li>
-              <li className="list-disc">React-</li>
+              <li className="list-disc">set up for MERN stack</li>
+              <li className="list-disc">integration backend</li>
+              <li className="list-disc">uses library</li>
             </ul>
           </div>
         </div>
@@ -72,11 +69,10 @@ const Skills = () => {
             <div className="card-title text-3xl">MERN Stack</div>
 
             <ul className="text-lg">
-              <li className="list-disc">React-functional Components</li>
-              <li className="list-disc">React-router</li>
-              <li className="list-disc">React-firebase-hooks</li>
-              <li className="list-disc">React-toastify</li>
-              <li className="list-disc">React-</li>
+              <li className="list-disc">React </li>
+              <li className="list-disc">Node</li>
+              <li className="list-disc">Express</li>
+              <li className="list-disc">MongoDB</li>
             </ul>
           </div>
         </div>
