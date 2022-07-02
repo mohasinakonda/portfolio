@@ -4,10 +4,10 @@ import hero from "../../assests/mohasin.jpg";
 const Hero = () => {
   return (
     <div class="hero min-h-screen bg-cyan-100">
-      <div class="hero-content flex-col lg:flex-row-reverse">
+      <div class="hero-content justify-center flex-col lg:flex-row-reverse">
         <img
           src={hero}
-          class="max-w-sm rounded-lg shadow-2xl"
+          class=" rounded-lg shadow-2xl"
           alt="Hazrat ali akonda"
         />
         <div>
