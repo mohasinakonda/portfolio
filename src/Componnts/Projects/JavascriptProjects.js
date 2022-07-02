@@ -23,7 +23,7 @@ const JavascriptProjects = () => {
               [live preview]
             </a>
           </h1>
-          <div class="grid xl:grid-cols-2 grid-cols-1">
+          <div className="grid xl:grid-cols-2 grid-cols-1 py-5">
             <div className="grid gap-3 justify-center">
               <img
                 src={bankTransaction1}
@@ -80,7 +80,7 @@ const JavascriptProjects = () => {
               [live preview]
             </a>
           </h1>
-          <div class="grid xl:grid-cols-2 justify-center grid-cols-1">
+          <div class="grid xl:grid-cols-2 justify-center grid-cols-1 py-5">
             <div className="grid justify-center">
               <img
                 src={bankistWebsite1}

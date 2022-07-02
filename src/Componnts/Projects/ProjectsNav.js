@@ -8,7 +8,7 @@ const ProjectsNav = () => {
     <section id="projects">
       <h2 className="text-4xl text-center py-10">My Recent work</h2>
 
-      <div class="navbar-center  lg:flex justify-center">
+      <div class="navbar-center  flex justify-center">
         <ul class="menu menu-horizontal p-0">
           <li>
             <NavLink

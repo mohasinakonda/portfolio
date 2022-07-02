@@ -7,34 +7,34 @@ const ReactProjects = () => {
     <div className="px-24">
       <h2 className="text-3xl text-cyan-400"> React Projects</h2>
 
-      <div className="grid lg:grid-cols-2 gap-15 justify-center  ">
+      <div className="grid lg:grid-cols-2 gap-5 justify-center  ">
         <div class=" bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 p-5">
-          <div class="hero-content flex-col lg:flex-row-reverse ">
-            <div className="grid gap-3">
+          <h1 class="text-4xl font-bold">
+            Hotel booking{" "}
+            <a
+              className="text-lg text-cyan-400"
+              rel="noreferrer"
+              target="_blank"
+              href="https://hotelroombooking.netlify.app/"
+            >
+              {" "}
+              [live preview]
+            </a>
+          </h1>
+          <div className="grid xl:grid-cols-2 grid-cols-1">
+            <div className="grid gap-3 justify-center  py-5">
               <img
                 src={hotelBooking}
                 alt="electric gear"
-                class="max-w-sm  rounded-lg shadow-2xl"
+                class=" lg:w-[300px] w[100%]  rounded-lg shadow-2xl"
               />
               <img
                 src={hotelBooking2}
                 alt="electric gear"
-                class="max-w-sm  rounded-lg shadow-2xl"
+                class="lg:w-[300px] w[100%]  rounded-lg shadow-2xl"
               />
             </div>
             <div>
-              <h1 class="text-4xl font-bold">
-                Hotel booking{" "}
-                <a
-                  className="text-lg text-cyan-400"
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://hotelroombooking.netlify.app/"
-                >
-                  {" "}
-                  [live preview]
-                </a>
-              </h1>
               <h3 className="text-3xl py-3">key features</h3>
               <ul>
                 <li className="list-disc">Room details</li>
@@ -65,25 +65,25 @@ const ReactProjects = () => {
 
         {/*  */}
         <div class=" bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 p-5">
-          <div class="hero-content flex-col lg:flex-row-reverse">
+          <h1 class="text-4xl font-bold">
+            Phone mart{" "}
+            <a
+              className="text-lg text-cyan-400"
+              rel="noreferrer"
+              target="_blank"
+              href="https://laptop-mart.netlify.app/"
+            >
+              {" "}
+              [live preview]
+            </a>
+          </h1>
+          <div className="grid xl:grid-cols-2 grid-cols-1 py-5">
             <img
               src={hotelBooking}
               alt="electric gear"
-              class="max-w-sm  rounded-lg shadow-2xl"
+              class="lg:w-[300px] w[100%]  rounded-lg shadow-2xl"
             />
             <div>
-              <h1 class="text-4xl font-bold">
-                Phone mart{" "}
-                <a
-                  className="text-lg text-cyan-400"
-                  rel="noreferrer"
-                  target="_blank"
-                  href="https://laptop-mart.netlify.app/"
-                >
-                  {" "}
-                  [live preview]
-                </a>
-              </h1>
               <h3 className="text-3xl py-3">Technology uses:</h3>
               <ul>
                 <li className="list-disc">Client : React ,Tailwind ,DaisyUI</li>
