@@ -28,7 +28,7 @@ const ProjectsNav = () => {
               className={({ isActive }) => (isActive ? activeClass : undefined)}
               to="/projects/react-project"
             >
-              React project
+              REACT
             </NavLink>
           </li>
           <li>
@@ -38,7 +38,7 @@ const ProjectsNav = () => {
               className={({ isActive }) => (isActive ? activeClass : undefined)}
               to="/projects/javascript-project"
             >
-              Javascript project
+              JAVASCRIPT
             </NavLink>
           </li>
         </ul>

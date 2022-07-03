@@ -5,12 +5,12 @@ import hotelBooking2 from "../../assests/hotelbokking2.png";
 const ReactProjects = () => {
   return (
     <div className="px-5 lg:px-24">
-      <h2 className="text-3xl text-cyan-400"> React Projects</h2>
+      <h2 className="text-3xl text-cyan-400 py-5"> React Projects</h2>
 
       <div className="grid lg:grid-cols-2 gap-5 justify-center  ">
         <div class=" bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 p-5">
-          <h1 class="text-4xl font-bold">
-            Hotel booking{" "}
+          <h1 class="xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl font-bold">
+            HOTEL BOOKING{" "}
             <a
               className="text-lg text-cyan-400"
               rel="noreferrer"
@@ -21,7 +21,7 @@ const ReactProjects = () => {
               [live preview]
             </a>
           </h1>
-          <div className="grid xl:grid-cols-2 grid-cols-1">
+          <div className="grid xl:grid-cols-2 grid-cols-1 gap-5">
             <div className="grid gap-3 justify-center  py-5">
               <img
                 src={hotelBooking}
@@ -34,7 +34,7 @@ const ReactProjects = () => {
                 class="lg:w-[300px] w[100%]  rounded-lg shadow-2xl"
               />
             </div>
-            <div>
+            <div className="lg:pl-8">
               <h3 className="text-3xl py-3">key features</h3>
               <ul>
                 <li className="list-disc">Room details</li>
@@ -65,8 +65,8 @@ const ReactProjects = () => {
 
         {/*  */}
         <div class=" bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 p-5">
-          <h1 class="text-4xl font-bold">
-            Phone mart{" "}
+          <h1 class="xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl font-bold">
+            PHONE MART{" "}
             <a
               className="text-lg text-cyan-400"
               rel="noreferrer"
@@ -83,7 +83,7 @@ const ReactProjects = () => {
               alt="electric gear"
               class="lg:w-[300px] w[100%]  rounded-lg shadow-2xl"
             />
-            <div>
+            <div className="lg:pl-8">
               <h3 className="text-3xl py-3">Technology uses:</h3>
               <ul>
                 <li className="list-disc">Client : React ,Tailwind ,DaisyUI</li>

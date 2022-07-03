@@ -7,11 +7,11 @@ import bankistWebsite2 from "../../assests/bankist-website-2.png";
 const JavascriptProjects = () => {
   return (
     <div className="lg:px-24 px-5">
-      <h2 className="text-3xl text-cyan-400"> JAVASCRIPT PROJECTS</h2>
+      <h2 className="text-3xl text-cyan-400 py-5"> JAVASCRIPT PROJECTS</h2>
 
       <div className="grid lg:grid-cols-2  justify-center gap-5 ">
         <div class=" bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 p-5">
-          <h1 class="text-4xl font-bold">
+          <h1 class="xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl font-bold">
             BANK TRANSACTION APP{" "}
             <a
               className="text-lg text-cyan-400"
@@ -36,7 +36,7 @@ const JavascriptProjects = () => {
                 class="  lg:w-[300px]  rounded-lg shadow-2xl"
               />
             </div>
-            <div>
+            <div className="lg:pl-8">
               <h3 className="text-3xl py-3">key features</h3>
               <ul>
                 <li className="list-disc">User can withdraw money</li>
@@ -68,7 +68,7 @@ const JavascriptProjects = () => {
 
         {/*  */}
         <div class=" bg-base-100 shadow-xl hover:bg-cyan-100  transition duration-300 p-5">
-          <h1 class="text-4xl font-bold">
+          <h1 class="xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl font-bold">
             BANKIST WEBSITE
             <a
               className="text-lg text-cyan-400"
@@ -93,7 +93,7 @@ const JavascriptProjects = () => {
                 class="  lg:w-[300px] rounded-lg shadow-2xl"
               />
             </div>
-            <div>
+            <div className="lg:pl-8">
               <h3 className="text-3xl py-3">Technology uses:</h3>
               <ul>
                 <li className="list-disc">
