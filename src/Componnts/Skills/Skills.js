@@ -6,7 +6,7 @@ import mern from "../../assests/mern-remove.png";
 
 const Skills = () => {
   return (
-    <section id="skills" className="lg:px-24">
+    <section id="skills" className="lg:px-24 px-5">
       <h3 className=" text-2xl text-center text-cyan-300 pt-5">
         what I know of developing world
       </h3>

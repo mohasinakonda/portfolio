@@ -4,7 +4,7 @@ import hotelBooking2 from "../../assests/hotelbokking2.png";
 
 const ReactProjects = () => {
   return (
-    <div className="px-24">
+    <div className="px-5 lg:px-24">
       <h2 className="text-3xl text-cyan-400"> React Projects</h2>
 
       <div className="grid lg:grid-cols-2 gap-5 justify-center  ">

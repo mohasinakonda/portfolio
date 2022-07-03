@@ -23,6 +23,7 @@ function App() {
         <About></About>
         <div className="h-[3px] bg-cyan-100 shadow-xl"></div>
       </div>
+      {/* <Test /> */}
       <Skills />
 
       <ProjectsNav />

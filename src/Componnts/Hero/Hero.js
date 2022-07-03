@@ -3,8 +3,8 @@ import hero from "../../assests/mohasin.jpg";
 
 const Hero = () => {
   return (
-    <div class="hero min-h-screen bg-cyan-100">
-      <div class="hero-content justify-center flex-col lg:flex-row-reverse">
+    <div class="hero min-h-screen bg-cyan-300 ">
+      <div class="hero-content justify-center flex-col lg:flex-row-reverse  rounded shadow-2xl">
         <img
           src={hero}
           class=" rounded-lg shadow-2xl"

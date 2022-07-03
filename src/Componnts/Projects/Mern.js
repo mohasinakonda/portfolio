@@ -6,7 +6,7 @@ import HomePage from "../../assests/homepase-2.png";
 
 const Mern = () => {
   return (
-    <div className="px-24">
+    <div className="px-5 lg:px-24">
       <h2 className="text-3xl text-cyan-400"> MERN Projects</h2>
 
       <div className="grid lg:grid-cols-2 gap-5 justify-center  ">

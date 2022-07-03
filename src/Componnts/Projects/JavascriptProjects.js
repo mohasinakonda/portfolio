@@ -6,7 +6,7 @@ import bankistWebsite2 from "../../assests/bankist-website-2.png";
 
 const JavascriptProjects = () => {
   return (
-    <div className="px-12">
+    <div className="lg:px-24 px-5">
       <h2 className="text-3xl text-cyan-400"> JAVASCRIPT PROJECTS</h2>
 
       <div className="grid lg:grid-cols-2  justify-center gap-5 ">
