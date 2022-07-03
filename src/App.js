@@ -15,7 +15,7 @@ import Skills from "./Componnts/Skills/Skills";
 function App() {
   return (
     <div>
-      <div className="bg-gradient-to-r from-cyan-500 to-blue-500 bg-gradient-to-l hover:bg-gradient-to-r lg:px-24 ">
+      <div className="bg-gradient-to-r from-cyan-100 to-blue-500 bg-gradient-to-l hover:bg-gradient-to-r transition duration-500 lg:px-24 ">
         <Navbar></Navbar>
         <Hero />
       </div>
